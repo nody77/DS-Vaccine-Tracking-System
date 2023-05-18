@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUpClass</class>
+ <widget class="QMainWindow" name="SignUpClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1150</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SignUp</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Full Name :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Age :</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="dosageBox">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>250</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="ageBox">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>310</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>5</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>National ID :</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="genderCombo">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>250</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>Male</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Male</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Female</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="idField">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nameField">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>871</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 16pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Please fill in the following data to create your account :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>310</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Governorate :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gender :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Password :</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="govCombo">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>310</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>Alexandria</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Alexandria</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Aswan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Asyut</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Beheira</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Beni Suef</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cairo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dakahlia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Damietta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fayoum</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gharbia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Giza</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ismailia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kafr El Sheikh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luxor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Matrouh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Minya</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Monufia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>New Valley</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>North Sinai</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Port Said</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Qalyubia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Qena</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Red Sea</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sharqia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sohag</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>South Sinai</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suez</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>250</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(11, 45, 57);
+font: 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Number of doses already taken :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passField">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>190</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1150</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
