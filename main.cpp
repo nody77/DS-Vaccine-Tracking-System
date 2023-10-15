@@ -25,24 +25,6 @@ int main(int argc, char* argv[])
     queue<User> firstDoseQueue, secondDoseQueue;
     vector<User> waitForFirstConfirm, waitForSecondConfirm, fullyVaccinated;
 
-    //QDate date1(2023, 5, 6);
-    //QDate date2(2023, 5, 5);
-    //QDate date3(2023, 5, 7);
-    //User u1("Manar Mohamed El-Gamal", "1234567891011", "123", false, true , 19, "Cairo", false , 0 , date1);
-    //User u2("Nada Ahmed", "1234567891012", "456", false, true, 21, "Cairo", false , 1 , date2);
-    //User u3("Raneem Mohamed", "1234567891013", "789", false, true, 21, "Cairo", true, 2 , date3);
-    //User u4("Mennatoullah Mostafa", "1234567891014", "147", false, true, 20, "Cairo", false, 0, date1);
-    //User u5("Sama Anwar", "1234567891015", "258", false, true, 21, "Cairo", false, 1, date2);
-    //userdata[u1.getId()] = u1;
-    //userdata[u2.getId()] = u2;
-    //userdata[u3.getId()] = u3;
-    //userdata[u4.getId()] = u4;
-    //userdata[u5.getId()] = u5;
-    //firstDoseQueue.push(u1);
-    //firstDoseQueue.push(u4);
-    //secondDoseQueue.push(u2);
-    //secondDoseQueue.push(u5);
-    //fullyVaccinated.push_back(u3);
 
     readfromfile(userdata, firstDoseQueue, secondDoseQueue, fullyVaccinated, waitForFirstConfirm, waitForSecondConfirm);
 
